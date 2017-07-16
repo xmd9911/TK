@@ -1,0 +1,62 @@
+@charset "utf-8";
+html {
+  width: 100%;
+}
+.main {
+  position: relative;
+  width: 100%;
+}
+.main nav {
+  z-index: 99;
+  margin: 0 auto;
+  position: fixed;
+  width: 1000px;
+  height: 50px;
+}
+.main nav .bg {
+  width: 100%;
+  height: 100%;
+  background: url('../images/dh_05.png') no-repeat;
+}
+.main nav .navList {
+  position: absolute;
+  top: 7px;
+  right: 14px;
+}
+.main nav .navList ul li {
+  float: left;
+  margin-left: 40px;
+  color: #fff;
+  height: 36px;
+  line-height: 36px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.main nav .navList ul .jm {
+  width: 110px;
+  text-align: center;
+}
+.main nav .navList ul .rj {
+  width: 110px;
+  margin-left: 0px;
+}
+.main nav .navList ul .sp {
+  width: 110px;
+  margin-left: -2px;
+}
+.main nav .navList ul .cp {
+  width: 110px;
+  margin-left: 0px;
+}
+.main nav .navList ul .lx {
+  width: 115px;
+  margin-left: -2px;
+}
+.main .content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.main .content div {
+  width: 100%;
+}
