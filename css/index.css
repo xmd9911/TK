@@ -6,24 +6,25 @@ html {
   position: relative;
   width: 100%;
 }
-.main nav {
+.main .pcNav {
   z-index: 99;
   margin: 0 auto;
   position: fixed;
   width: 1000px;
   height: 50px;
+  display: block;
 }
-.main nav .bg {
+.main .pcNav .bg {
   width: 100%;
   height: 100%;
   background: url('../images/dh_05.png') no-repeat;
 }
-.main nav .navList {
+.main .pcNav .navList {
   position: absolute;
   top: 7px;
   right: 14px;
 }
-.main nav .navList ul li {
+.main .pcNav .navList ul li {
   float: left;
   margin-left: 40px;
   color: #fff;
@@ -32,23 +33,23 @@ html {
   margin-left: 10px;
   padding-left: 10px;
 }
-.main nav .navList ul .jm {
+.main .pcNav .navList ul .jm {
   width: 110px;
   text-align: center;
 }
-.main nav .navList ul .rj {
+.main .pcNav .navList ul .rj {
   width: 110px;
   margin-left: 0px;
 }
-.main nav .navList ul .sp {
+.main .pcNav .navList ul .sp {
   width: 110px;
   margin-left: -2px;
 }
-.main nav .navList ul .cp {
+.main .pcNav .navList ul .cp {
   width: 110px;
   margin-left: 0px;
 }
-.main nav .navList ul .lx {
+.main .pcNav .navList ul .lx {
   width: 115px;
   margin-left: -2px;
 }
